@@ -1,0 +1,92 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=57296:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home/lib:/Users/abdibasetbare/Downloads/libs/javacv.jar:/Users/abdibasetbare/Downloads/libs/openblas-macosx-x86_64.jar:/Users/abdibasetbare/Downloads/libs/opencv-macosx-x86_64.jar:/Users/abdibasetbare/Downloads/libs/opencv.jar:/Users/abdibasetbare/Downloads/libs/json-simple-1.1.1.jar:/Users/abdibasetbare/Downloads/libs/net-datastructures-4-0.jar:/Users/abdibasetbare/IdeaProjects/CS10_F22/out/production/CS10_F22 GameTest\
+Hello, select one of the following commands to , for the commands with 'or' select only one\
+c: list top (positive number) or bottom (negative) centers of the universe, sorted by average separation\
+dl or dh: list actors sorted by degree, with degree between low and high\
+i: list actors with infinite separation from the current center\
+p <name>: find path from <name> to current center of the universe\
+sl or hl: list actors sorted by non-infinite separation from the current center, with separation between low and high\
+u <name>: make <name> the center of the universe\
+q: quit game\
+u\
+Enter actor's name: \
+Kevin Bacon\
+Kevin Bacon is now the center of the acting universe, connected to 7493/9235 actors with average separation 3.2814626985186175\
+\
+Kevin Bacon game >\
+p\
+Enter actor's name <Vertex Name>: \
+Diane Keaton\
+Diane Keaton number is 2\
+Diane Keaton appeared in [Something's Gotta Give (2003)] with Jack Nicholson\
+Jack Nicholson appeared in [Few Good Men, A (1992)] with Kevin Bacon\
+\
+Kevin Bacon game >\
+p\
+Enter actor's name <Vertex Name>: \
+LeVar Burton\
+LeVar Burton number is 3\
+LeVar Burton appeared in [Star Trek: Insurrection (1998), Star Trek: Nemesis (2002), Star Trek: First Contact (1996), Star Trek: Generations (1994)] with Patrick Stewart\
+Patrick Stewart appeared in [Conspiracy Theory (1997)] with Julia Roberts\
+Julia Roberts appeared in [Flatliners (1990)] with Kevin Bacon\
+\
+Kevin Bacon game >\
+p\
+Enter actor's name <Vertex Name>: \
+Buster Keaton\
+Buster Keaton number is 5\
+Buster Keaton appeared in [Limelight (1952)] with Claire Bloom\
+Claire Bloom appeared in [Crimes and Misdemeanors (1989)] with Martin Landau\
+Martin Landau appeared in [Tucker: The Man and His Dream (1988)] with Joan Allen\
+Joan Allen appeared in [Searching for Bobby Fischer (1993)] with Joe Mantegna\
+Joe Mantegna appeared in [Queens Logic (1991)] with Kevin Bacon\
+\
+Kevin Bacon game >\
+u\
+Enter actor's name: \
+John Longden\
+John Longden is now the center of the acting universe, connected to 7493/9235 actors with average separation 8.676764980648606\
+\
+John Longden game >\
+p\
+Enter actor's name <Vertex Name>: \
+Kevin Bacon\
+Kevin Bacon number is 8\
+Kevin Bacon appeared in [She's Having a Baby (1988)] with Elizabeth McGovern\
+Elizabeth McGovern appeared in [Wings of Courage (1995)] with Val Kilmer\
+Val Kilmer appeared in [Top Secret! (1984)] with Peter Cushing\
+Peter Cushing appeared in [Tales from the Crypt (1972)] with Richard Greene\
+Richard Greene appeared in [Little Princess, The (1939)] with Ian Hunter\
+Ian Hunter appeared in [Ring, The (1927)] with Carl Brisson\
+Carl Brisson appeared in [Manxman, The (1929)] with Anny Ondra\
+Anny Ondra appeared in [Blackmail (1929)] with John Longden\
+\
+John Longden game >\
+p\
+Enter actor's name <Vertex Name>: \
+Buster Keaton\
+Buster Keaton number is 9\
+Buster Keaton appeared in [Limelight (1952)] with Nigel Bruce\
+Nigel Bruce appeared in [Suspicion (1941)] with Cary Grant\
+Cary Grant appeared in [Affair to Remember, An (1957)] with Deborah Kerr\
+Deborah Kerr appeared in [End of the Affair, The (1955)] with Peter Cushing\
+Peter Cushing appeared in [Tales from the Crypt (1972)] with Richard Greene\
+Richard Greene appeared in [Little Princess, The (1939)] with Ian Hunter\
+Ian Hunter appeared in [Ring, The (1927)] with Carl Brisson\
+Carl Brisson appeared in [Manxman, The (1929)] with Anny Ondra\
+Anny Ondra appeared in [Blackmail (1929)] with John Longden\
+\
+John Longden game >\
+\
+\
+\
+\
+\
+\
+##the good bacon number is Kevin Bacon because he has the lowest average separation (3.2814626985186175), and the bad would be John Longden who has the highest average separation(8.676764980648606).}
