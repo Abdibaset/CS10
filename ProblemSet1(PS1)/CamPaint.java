@@ -57,9 +57,9 @@ public class CamPaint extends Webcam {
 	@Override
 	public void processImage() {
 		// TODO: YOUR CODE HERE
-		if (targetColor != null) { 					//check if the target color is not null
-			finder.setImage(image);					//finds and sets image
-			finder.findRegions(targetColor);		//creating the regions with color match
+		if (targetColor != null) { 					
+			finder.setImage(image);					//setting the image in RegionFinder to this image parsed
+			finder.findRegions(targetColor);			//creating the regions with the desired color match
 			ArrayList<Point> largestRegion = finder.largestRegion();
 			finder.recolorImage();					//recoloring the image to display randomly colored image
 			if(largestRegion != null){;				//if the largest region isn't null painted image is created.
