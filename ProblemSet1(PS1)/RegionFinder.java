@@ -21,7 +21,7 @@ public class RegionFinder {
 	private ArrayList<ArrayList<Point>> regions;			// a region is a list of points
 															// so the identified regions are in a list of lists of points
 
-	public RegionFinder() { //class
+	public RegionFinder() { 
 		this.image = null;
 	}
 
