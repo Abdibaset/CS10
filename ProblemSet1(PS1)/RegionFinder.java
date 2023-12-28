@@ -102,7 +102,6 @@ public class RegionFinder {
 	 * Returns the largest region detected (if any region has been detected)
 	 */
 	public ArrayList<Point> largestRegion() {
-		// TODO: YOUR CODE HERE
 		//getting the max region
 		ArrayList<Point> max_region= new ArrayList<Point>();		//create new arrayList to store maximum regions
 		if(regions !=null){
@@ -123,9 +122,7 @@ public class RegionFinder {
 	public void recolorImage() {
 		// First copy the original
 		recoloredImage = new BufferedImage(image.getColorModel(), image.copyData(null), image.getColorModel().isAlphaPremultiplied(), null);
-		// TODO: YOUR CODE HERE
-
-		//loop for running through all the regions in regions
+		
 		for(ArrayList<Point> region : regions){
 			//randomly generating RGB values
 			int red = (int)(Math.random() *255);
